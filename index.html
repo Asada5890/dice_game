@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>dice_game
+    </title>
+</head  >
+
+<body>
+    <h1>Бросок кубика</h1>
+    <div id="result"> 
+    </div>
+    <script>
+        let number = Math.floor(Math.random() * 6)+1
+        document.getElementById("result").innerHTML = '<h1>вам выпал кубик с номером ' + number +'</h1> <img src="img/' + number + '.jpg">'
+      </script>
+    <p></p>
+</body>
